@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+/* semantic color variables for this project */
+:root {
+  --primary-Cyan: hsl(180, 66%, 49%);
+  --primary-Dark-Cyan: hsl(180, 66%, 49%);
+  --secondary-Red: hsl(0, 87%, 67%);
+  --Neutral-Gray: hsl(0, 0%, 75%);
+  --Neutral-Grayish-Violet: hsl(257, 7%, 63%);
+  --Neutral-Very-Dark-Blue: hsl(255, 11%, 22%);
+  --Neutral-Very-Dark-Violet: hsl(260, 8%, 14%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-Cyan: hsl(180, 66%, 49%);
+    --primary-Dark-Violet: hsl(257, 27%, 26%);
+    --secondary-Red: hsl(0, 87%, 67%);
+    --Neutral-Gray: hsl(0, 0%, 75%,0.2);
+    --Neutral-Grayish-Violet: hsl(257, 7%, 63%);
+    --Neutral-Very-Dark-Blue: hsl(255, 11%, 22%);
+    --Neutral-Very-Dark-Violet: hsl(260, 8%, 14%);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size:18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+margin: auto;
+}
